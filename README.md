@@ -28,12 +28,6 @@ sudo ./client 3 1025
 ```
 in three terminals for 2 servers and the client.
 
-## Author Contact Information
+## Help
 
-Peihan Miao (Brown University) [peihan_miao@brown.edu](mailto:peihan_miao@brown.edu)
-
-Xinyi Shi (Brown University) [xinyi_shi@brown.edu](mailto:xinyi_shi@brown.edu)
-
-Chao Wu (University of California, Riverside) [chao.wu@email.ucr.edu](mailto:chao.wu@email.ucr.edu)
-
-Ruofan Xu (University of Illinois Urbana-Champaign) [ruofan4@illinois.edu](mailto:ruofan4@illinois.edu)
+For any questions on building or running the library, please contact [Xinyi Shi](mailto:xinyi_shi@brown.edu) at xinyi_shi at brown dot edu.
