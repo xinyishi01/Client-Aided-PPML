@@ -13,7 +13,7 @@ The [env_setup.sh](env_setup.sh) script will handle installation of build depend
 bash env_setup.sh
 ```
 
-The [build.sh](env_setup.sh) script will compile the codes and generate executable files in `build` folder:
+The [build.sh](env_setup.sh) script will compile the codes and generate executable files in the `build` subfolder:
 
 ```bash
 bash build.sh all
