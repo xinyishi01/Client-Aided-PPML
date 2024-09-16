@@ -7,26 +7,34 @@ This is the implementation for [Client-Aided Privacy-Preserving Machine Learning
 > [!IMPORTANT]
 > The project should be built on Ubuntu 16.04 ~ 22.04
 
-The [env_setup.sh](env_setup.sh) script will handle installation of build dependencies
+The [env_setup.sh](env_setup.sh) script will handle installation of build dependencies. The following command will install an earlier version of [emp-toolkit](https://github.com/emp-toolkit) from [envir.zip](envir.zip): 
 
 ```bash
 bash env_setup.sh
 ```
 
-The [build.sh](env_setup.sh) script will compile the codes and generate executable files in `build` folder.
+The [build.sh](env_setup.sh) script will compile the codes and generate executable files in `build` folder:
 
 ```bash
 bash build.sh all
 ```
+
+You may also use the following command to build codes from a specific folder:
+
+```bash
+bash build.sh path_to_folder
+```
+For example, you may use `bash build.sh semi-honest_NN` to compile codes for neural networks training in the semi-honest security.
+
 ## Running the Experiments
 
-To run the experiments, go to the `build` folder, find the executable files, and use
+To run the experiments, go to the `build` subfolder, find the executable files, and use the following three commands in three terminals respectively:
 ```bash
 sudo ./server 1 1025
 sudo ./server 2 1025
 sudo ./client 3 1025
 ```
-in three terminals for 2 servers and the client.
+In the commands above, please replace `server` and `client` by the names of executable files for servers and client.
 
 ## Help
 
